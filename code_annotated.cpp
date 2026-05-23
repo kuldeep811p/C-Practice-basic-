@@ -44,12 +44,10 @@ class Person {
     public:
         string name;
         int age;
-
         void display(){
             cout << "name: " << name << endl;
             cout << "age: "  << age  << endl;
         }
-
         // DEFINITION: Constructor - a special function called automatically
         // when an object is created. Same name as the class, no return type.
         // Default constructor has no parameters.
@@ -58,7 +56,6 @@ class Person {
             age  = 0;
             cout << "default constructor called " << name << endl;
         }
-
         // DEFINITION: Destructor - a special function called automatically
         // when an object goes out of scope or is deleted. Prefix: '~'
         ~Person(){
